@@ -2,13 +2,13 @@
 
 import time
 
-from VTYS_Project_Final.Source.mongodb_operations import Queries
-from VTYS_Project_Final.Source.sklearn_algorithms import MachineLearningAlgorithms
-from VTYS_Project_Final.Source.visualization import Visualization
+from Source.mongodb_operations import Queries
+from Source.sklearn_algorithms import MachineLearningAlgorithms
+from Source.visualization import Visualization
 from sklearn import preprocessing
 
 # --- IMPORT FILES --- #
-from VTYS_Project_Final.Source.get_data import PrepareTheData
+from Source.get_data import PrepareTheData
 
 
 class AlgorithmOperation:
