@@ -1,10 +1,10 @@
-from VTYS_Project_Final.Forms.KNN import *
-from VTYS_Project_Final.Forms.NaiveBayes import *
-from VTYS_Project_Final.Forms.RandomForest import *
-from VTYS_Project_Final.Forms.SVC import *
-from VTYS_Project_Final.Forms.DecisionTree import *
-from VTYS_Project_Final.Source.use_algorithms import AlgorithmOperation
-import VTYS_Project_Final.Source.distance_algorithms as dist_alg
+from Forms.KNN import *
+from Forms.NaiveBayes import *
+from Forms.RandomForest import *
+from Forms.SVC import *
+from Forms.DecisionTree import *
+from Source.use_algorithms import AlgorithmOperation
+import Source.distance_algorithms as dist_alg
 import json
 
 #Checks status of imported files to enable grpPrepareData and grpPreprocessing
