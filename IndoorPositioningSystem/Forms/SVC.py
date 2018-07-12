@@ -1,15 +1,7 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'SVC.ui'
-#
-# Created by: PyQt5 UI code generator 5.9.2
-#
-# WARNING! All changes made in this file will be lost!
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 from sklearn.svm import SVC
 
-from VTYS_Project_Final.Source.use_algorithms import AlgorithmOperation
+from Source.use_algorithms import AlgorithmOperation
 
 
 class Ui_FormSetParamSVC(object):
