@@ -1,6 +1,6 @@
 import numpy as np
 
-from VTYS_Project_Final.Source.mongodb_operations import Queries
+from Source.mongodb_operations import Queries
 
 
 class PrepareTheData:
