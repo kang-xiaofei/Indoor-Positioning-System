@@ -1,8 +1,7 @@
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 from sklearn.naive_bayes import GaussianNB
 
-from VTYS_Project_Final.Source.use_algorithms import AlgorithmOperation
+from Source.use_algorithms import AlgorithmOperation
 
 
 class Ui_FormSetNaiveBayesParam(object):
