@@ -1,15 +1,7 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'KNN.ui'
-#
-# Created by: PyQt5 UI code generator 5.9.2
-#
-# WARNING! All changes made in this file will be lost!
-
-from VTYS_Project_Final.Source.use_algorithms import AlgorithmOperation
+from Source.use_algorithms import AlgorithmOperation
 from sklearn.neighbors import KNeighborsClassifier
 
-from VTYS_Project_Final.Forms.MainForm import *
+from Forms.MainForm import *
 
 
 class Ui_FormSetKNNParam(object):
