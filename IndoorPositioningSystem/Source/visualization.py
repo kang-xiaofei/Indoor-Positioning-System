@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-from VTYS_Project_Final.Source.mongodb_operations import Queries
+from Source.mongodb_operations import Queries
 
 
 class Visualization:
