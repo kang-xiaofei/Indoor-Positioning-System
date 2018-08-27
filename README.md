@@ -1,2 +1,17 @@
-# Indoor-Positioning-System
-Python ortamında, EVARILOS(http://www.evarilos.eu/index.php) verileri kullanılarak iç mekanda konum tahmini yapılmıştır. Weka benzeri yapılan bu uygulamada, kullanıcı istediği algoritmayı seçebilir ve sonuçları gözlemleyebilir. Veritabanı olarak MongoDB kullanılmıştır. Verileri işleme kısmı MongoDB'de gerçekleştirilmiştir.
+# Indoor Positioning System
+
+_EVARILOS(http://www.evarilos.eu/index.php) dataset was used to estimate indoor position. Application provides user interface for choosing machine learning algorithms, preprocessing steps and visualizing results of estimation. Required Data stored in MongoDB_<br />
+
+###### Requirements :heavy_exclamation_mark:
+_Python 3_,
+_PyQT_,
+_Sklearn_,
+_Numpy_,
+_Matplotlib_,
+_MongoDB_
+
+###### Developers  :computer:
+- _Oğuzhan Mangır (@mangrrua)_<br />
+  _http://www.github.com/mangrrua_
+- _Ahmet Gökçe Bozan (@gkca)_<br />
+  _http://www.github.com/gkca_
